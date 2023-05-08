@@ -37,19 +37,13 @@ figure {
   padding: 1.5rem 0.5rem;
 }
 
-figure img {
+figure > img {
   display: block;
   width: 85%;
-  max-width: 1200px;
+  max-width: 100%;
+  /* max-width: 100%; */
   margin: 0 auto;
   margin-bottom: 1.5rem;
-}
-
-figcaption {
-  /* width: 85%; */
-  /* max-width: 1200px; */
-  /* margin: 0 auto; */
-  font-size: 500;
 }
 
 section {
