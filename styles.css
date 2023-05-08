@@ -1,5 +1,95 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.3px;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  padding: 2rem 1rem;
+}
+
+.container {
+  width: 100%;
+  background: #e5e5e8;
+  border-radius: 0.5rem;
+}
+
+header {
+  color: #3a3a3c;
+  letter-spacing: 1px;
+  /* margin: 2rem 0; */
+  padding: 2rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+figure {
+  background-color: white;
+  margin: 0 1rem;
+  padding: 1.5rem 0.5rem;
+}
+
+figure img {
+  display: block;
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+figcaption {
+  /* width: 85%; */
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+  font-size: 500;
+}
+
+section {
+  /* width: 50%; */
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+section h2 {
+  margin: 3rem 1rem;
+}
+
+section ul {
+  width: 70%;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+section li {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  line-height: 1.6;
+}
+
+blockquote {
+  padding: 0 1rem;
+  max-width: 680px;
+  margin: 2rem auto;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+cite {
+  display: block;
+  margin: 1.5rem 0;
+}
+
+h3 {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin: 1rem 0;
 }
